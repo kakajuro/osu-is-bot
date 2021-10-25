@@ -1,0 +1,17 @@
+{
+  "name": "oib",
+  "version": "1.0.0",
+  "description": "A bot to randomly generate a statement about osu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bot": "node index.js"
+  },
+  "author": "swishyy",
+  "license": "ISC",
+  "dependencies": {
+    "cross-fetch": "^3.1.4",
+    "dotenv": "^10.0.0",
+    "twit": "^2.2.11"
+  }
+}
