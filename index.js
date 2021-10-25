@@ -72,3 +72,5 @@ const runProgram = () => {
       .catch(err => console.log(err))
 
 }
+
+setInterval(runProgram, (1000*60*60));
