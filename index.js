@@ -73,4 +73,4 @@ const runProgram = () => {
 
 }
 
-setInterval(runProgram, 1000*30)
+setInterval(runProgram, 1000*60*60*2)
