@@ -27,7 +27,7 @@ npm install
 yarn
 ```
 
-Populate a .env file with your API Keys and Access Tokens. (These can be obtained by apply for a twitter developer account [here](https://developer.twitter.com/en/apply/user.html).
+Populate a .env file with your API Keys and Access Tokens. (These can be obtained by applying for a twitter developer account [here](https://developer.twitter.com/en/apply/user.html)).
 
 ```.env
 API_KEY=YOUR_API_KEY
