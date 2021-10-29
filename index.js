@@ -13,13 +13,13 @@ const twitter = Twit({
 
 const runProgram = () => {
 
-  fetch('https://random-word-form.herokuapp.com/random/adjective')
+  fetch('https://random-adjectives.herokuapp.com/adjectives?amount=1')
   .then(res => res.json())
   .then(jsonRes => {
     var word = jsonRes[0];
     var sentence = 'osu is ' + word;
 
-    twitter.post('statuses/update', { status: sentence}, (err, data, response) => {
+    twitter.post('statuses/update', { status: sentence }, (err, data, response) => {
       if (err) {
         console.log(err);
       } else {
@@ -73,4 +73,5 @@ const runProgram = () => {
 
 }
 
+runProgram();
 setInterval(runProgram, 1000*60*60*2)
