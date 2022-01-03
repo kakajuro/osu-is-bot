@@ -31,8 +31,6 @@ const runProgram = () => {
           .then(res => res.json())
           .then(jsonRes => {
 
-            //console.log(jsonRes);
-
             if (jsonRes.title === "No Definitions Found") {
               console.log('No definitions found for: ' + word);
 
@@ -74,4 +72,4 @@ const runProgram = () => {
 }
 
 runProgram();
-setInterval(runProgram, 1000*60*60*2)
+setInterval(runProgram, 1000*60*60*4);

@@ -6,7 +6,7 @@
 </p>
 
 
-This twitter bot was created to randomly choose an adjective to describe the rhythm game [osu](https://osu.ppy.sh). It tweets on 2 hour intervals.
+This twitter bot was created to randomly choose an adjective to describe the rhythm game [osu](https://osu.ppy.sh). It tweets on 4 hour intervals.
 
 ## Installation
 
